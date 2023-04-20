@@ -1,0 +1,17 @@
+1.2 a : Il n'est pas difficle de rajouter de nouveaux types d'instruments, les classes qui seront impactées sont seulement 
+la classe Orchestra et l'ajouter d'une nouvelle classe du nouveau type d'instrument.
+
+1.2 b : Non il suffit de implémenter les instruments qui compose la musique.
+
+1.3 : Ne respect pas le principe ouvert fermé
+
+
+
+3.9 il est inutile d'avoir d'implémenter cette méthode playLikeASoprano pour la guitare comme il ne peut pas jouer de cette manière
+
+
+
+
+
+
+

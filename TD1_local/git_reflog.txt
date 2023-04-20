@@ -1,0 +1,61 @@
+0e60e27 HEAD@{0}: commit (cherry-pick): Add a cherry-picked blackberry
+caf0d7b HEAD@{1}: reset: moving to HEAD^
+1259fe2 HEAD@{2}: checkout: moving from berries to main
+8794668 HEAD@{3}: reset: moving to 8794668
+4882925 HEAD@{4}: checkout: moving from main to berries
+1259fe2 HEAD@{5}: checkout: moving from berries to main
+4882925 HEAD@{6}: reset: moving to HEAD^
+8794668 HEAD@{7}: reset: moving to HEAD^
+775cc95 HEAD@{8}: merge melons: Merge made by the 'ort' strategy.
+8794668 HEAD@{9}: reset: moving to HEAD^
+8e7ddb0 HEAD@{10}: merge melons: Fast-forward
+8794668 HEAD@{11}: checkout: moving from main to berries
+1259fe2 HEAD@{12}: commit (merge): Merged melons branch into master
+caf0d7b HEAD@{13}: checkout: moving from nuts to main
+caf0d7b HEAD@{14}: reset: moving to HEAD^
+4d12d5e HEAD@{15}: rebase (finish): returning to refs/heads/nuts
+4d12d5e HEAD@{16}: rebase (fixup): Add a walnut
+fae59ce HEAD@{17}: rebase (reword): Add a walnut
+a1a9201 HEAD@{18}: rebase: fast-forward
+caf0d7b HEAD@{19}: rebase (start): checkout HEAD~2
+5d57987 HEAD@{20}: commit: Add a walnut
+a1a9201 HEAD@{21}: rebase (continue) (finish): returning to refs/heads/nuts
+a1a9201 HEAD@{22}: rebase (continue): Add a 2 walnut
+caf0d7b HEAD@{23}: rebase (start): checkout main
+a936a33 HEAD@{24}: commit: Add a walnut
+4882925 HEAD@{25}: checkout: moving from main to nuts
+caf0d7b HEAD@{26}: rebase (finish): returning to refs/heads/main
+caf0d7b HEAD@{27}: rebase (fixup): Add a grape
+1a79c20 HEAD@{28}: rebase (reword): Add a grape
+64feabc HEAD@{29}: rebase: fast-forward
+8338225 HEAD@{30}: rebase (start): checkout HEAD~2
+fd59a0a HEAD@{31}: commit: Add the other half of the grape
+64feabc HEAD@{32}: commit: Add half a grape
+8338225 HEAD@{33}: checkout: moving from 8338225b1531cd2a06603aaf2ed80747f20ffaee to main
+8338225 HEAD@{34}: reset: moving to main
+4882925 HEAD@{35}: checkout: moving from main to HEAD~1
+8338225 HEAD@{36}: checkout: moving from melons to main
+8e7ddb0 HEAD@{37}: checkout: moving from main to melons
+8338225 HEAD@{38}: checkout: moving from main to main
+8338225 HEAD@{39}: reset: moving to main
+8338225 HEAD@{40}: commit: Add a peach
+4882925 HEAD@{41}: checkout: moving from bug to main
+1dd3f85 HEAD@{42}: commit: Another bug!
+53a6061 HEAD@{43}: checkout: moving from main to bug
+4882925 HEAD@{44}: checkout: moving from 53a60611bb5d4baeba2777d8bc6199c5cd14c209 to main
+53a6061 HEAD@{45}: commit: Bug eats all the fuits!
+83b65b6 HEAD@{46}: checkout: moving from main to HEAD^
+4882925 HEAD@{47}: checkout: moving from melons to main
+8e7ddb0 HEAD@{48}: checkout: moving from main to melons
+4882925 HEAD@{49}: checkout: moving from berries to main
+8794668 HEAD@{50}: reset: moving to HEAD^
+8e7ddb0 HEAD@{51}: commit: Add a watermelon
+8794668 HEAD@{52}: reset: moving to 8794668
+4882925 HEAD@{53}: reset: moving to main
+8794668 HEAD@{54}: checkout: moving from main to berries
+4882925 HEAD@{55}: checkout: moving from berries to main
+8794668 HEAD@{56}: commit: Add a blackberry
+4882925 HEAD@{57}: checkout: moving from main to berries
+4882925 HEAD@{58}: commit: Add an orange
+83b65b6 HEAD@{59}: commit: Add an Apple.
+0e93b86 HEAD@{60}: commit (initial): Add a banana to the shopping list

@@ -1,0 +1,1 @@
+2022-05-10T11:01:54.955757600 **** DEBUG **** Après avoir écrit dans la console tu ecrit dans un fichier

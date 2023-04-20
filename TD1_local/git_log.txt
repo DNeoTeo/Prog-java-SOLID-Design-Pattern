@@ -1,0 +1,35 @@
+commit 0e60e27402ef2d29f883d30aa0d63b78a096728f
+Author: AKOKA <akoka@et.esiea.fr>
+Date:   Tue Mar 15 13:58:19 2022 +0100
+
+    Add a cherry-picked blackberry
+
+commit caf0d7b27e4a04b5502081114d9f140d9e3a3ebc
+Author: AKOKA <akoka@et.esiea.fr>
+Date:   Tue Mar 15 16:34:56 2022 +0100
+
+    Add a grape
+
+commit 8338225b1531cd2a06603aaf2ed80747f20ffaee
+Author: AKOKA <akoka@et.esiea.fr>
+Date:   Tue Mar 15 15:07:14 2022 +0100
+
+    Add a peach
+
+commit 488292577bb548bcbb7d98257a7e7392dce3942a
+Author: AKOKA <akoka@et.esiea.fr>
+Date:   Tue Mar 15 13:44:53 2022 +0100
+
+    Add an orange
+
+commit 83b65b6f38ff273f813d5acf2cf7bc3b34949191
+Author: AKOKA <akoka@et.esiea.fr>
+Date:   Tue Mar 15 13:31:24 2022 +0100
+
+    Add an Apple.
+
+commit 0e93b869106998035be8feda5ef3419f868b6432
+Author: AKOKA <akoka@et.esiea.fr>
+Date:   Tue Mar 15 09:03:44 2022 +0100
+
+    Add a banana to the shopping list

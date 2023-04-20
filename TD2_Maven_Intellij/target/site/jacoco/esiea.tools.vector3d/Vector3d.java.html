@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="fr"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Vector3d.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TD_UnitTests</a> &gt; <a href="index.source.html" class="el_package">esiea.tools.vector3d</a> &gt; <span class="el_source">Vector3d.java</span></div><h1>Vector3d.java</h1><pre class="source lang-java linenums">package esiea.tools.vector3d;
+
+public class Vector3d extends Entity3d {
+
+    /**
+     * Constructs and initializes a Vector3d from the specified xyz coordinates.
+     * @param x the x coordinate
+     * @param y the y coordinate
+     * @param z the z coordinate
+     */
+    public Vector3d(double x, double y, double z)
+    {
+<span class="fc" id="L13">        super(x,y,z);</span>
+<span class="fc" id="L14">    }</span>
+    /**
+     * Constructs and initializes a Vector3d from the specified Entity3d.
+     * @param t1 the Entity3d containing the initialization x y z data
+     */
+    public Vector3d(Entity3d t1)
+    {
+<span class="fc" id="L21">        super(t1);</span>
+<span class="fc" id="L22">    }</span>
+
+    /**
+     * Constructs and initializes a Vector3d to (0,0,0).
+     */
+    public Vector3d()
+    {
+<span class="fc" id="L29">        super(0,0,0);</span>
+<span class="fc" id="L30">    }</span>
+
+    /**
+     * Sets this vector to the vector cross product of vectors v1 and v2.
+     * @param v1 the first vector
+     * @param v2 the second vector
+     */
+    public final void cross(Vector3d v1, Vector3d v2)
+    {
+        double x,y,z;
+
+<span class="fc" id="L41">        x = v1.y*v2.z - v1.z*v2.y;</span>
+<span class="fc" id="L42">        y = v2.z*v1.x - v2.x*v1.z;</span>
+<span class="fc" id="L43">        z = v1.x*v2.y - v1.y*v2.x;</span>
+<span class="fc" id="L44">        this.z = z;</span>
+<span class="fc" id="L45">        this.x = x;</span>
+<span class="fc" id="L46">        this.y = y;</span>
+<span class="fc" id="L47">    }</span>
+
+    /**
+     * Returns the dot product of this vector and vector v1.
+     * @param v1 the other vector
+     * @return the dot product of this and v1
+     */
+    public final double dot(Vector3d v1)
+    {
+<span class="fc" id="L56">        return (this.x*v1.x + this.y*v1.y + this.z*v1.z);</span>
+    }
+
+    /**
+     * Returns the length (magnitude) of this vector. See https://mathinsight.org/definition/magnitude_vector
+     * @return the length (magnitude) of this vector
+     */
+    public final double length()
+    {
+<span class="fc" id="L65">        return Math.sqrt(this.x*this.x + this.y*this.y + this.z*this.z);</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
